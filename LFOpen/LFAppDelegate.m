@@ -8,11 +8,13 @@
 
 #import "LFAppDelegate.h"
 
+#import "LFService.h"
+
 @implementation LFAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    sleep(5);
     return YES;
 }
 							

@@ -10,4 +10,11 @@
 
 @interface LFViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *timeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *averageSpeedLabel;
+@property (weak, nonatomic) IBOutlet UILabel *speedLabel;
+@property (weak, nonatomic) IBOutlet UILabel *inclineLabel;
+
+@property (weak, nonatomic) IBOutlet UIImageView *statusView;
+
 @end
